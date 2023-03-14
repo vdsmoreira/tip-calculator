@@ -26,8 +26,8 @@ body{
 }
 
 #container{
-  height: 70vh;
-  width: 30vw;
+  height: 85vh;
+  width: 35vw;
   margin: 100px auto;
   background-color: var(--tertiary-color);
   box-shadow: 3px 3px 3px var(--shadow);
@@ -36,7 +36,7 @@ body{
 
 .title{
   color: var(--secondary-color);
-  padding: 15px;
+  padding: 20px;
   text-transform: uppercase;
   font-size: 18px;
   text-align: center;
@@ -74,4 +74,10 @@ body{
   height: 50px;
   font-size: 17px;
   color: #f0f8ff;
+}
+
+#totalTip{
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: center;
 }
